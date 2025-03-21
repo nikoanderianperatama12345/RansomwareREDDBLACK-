@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ransomware REDDBLACK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="image-container">
+        <img src="niko.png" alt="Gambar yang Diinginkan" id="mainImage">
+    </div>
+    <div class="overlay" id="overlay">
+        <div class="message">
+            <h1>smartphone anda terkunci📵🔑</h1>
+            <p>Masukkan pola untuk membuka kunci:</p>
+            <input type="password" id="inputCode" placeholder="Masukkan pola ">
+            <button onclick="checkCode()">Kirim</button>
+            <p id="errorMessage" class="error"></p>
+        </div>
+    </div>
+    <div class="result-container" id="resultContainer" style="display: none;">
+        <h1>opened successfully
+                   🔓🔑 </h1>
+        <p>target failed to encrypt📵 to Ransomware REDDBLACK</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
